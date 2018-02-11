@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79FB6660-CAC0-435C-AAA1-88CB0E23A72D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaBiblioteca</RootNamespace>
+    <AssemblyName>SistemaBiblioteca</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Simbolo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.Charts.Design, Version=12.7.0.4, Culture=neutral, PublicKeyToken=90f470f34c89ccaf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.Charts.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Charts, Version=12.7.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=12.7.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=12.7.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar.Layout.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.7.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\cls_alumno.cs" />
+    <Compile Include="Controller\cls_busquedas_libros.cs" />
+    <Compile Include="Controller\cls_clasificacion.cs" />
+    <Compile Include="Controller\cls_devolucion.cs" />
+    <Compile Include="Controller\cls_grado.cs" />
+    <Compile Include="Controller\cls_grupo.cs" />
+    <Compile Include="Controller\cls_invent_libros.cs" />
+    <Compile Include="Controller\cls_reg_libro.cs" />
+    <Compile Include="Controller\cls_libros_prestados.cs" />
+    <Compile Include="Controller\cls_login.cs" />
+    <Compile Include="Controller\cls_prestamo.cs" />
+    <Compile Include="Controller\cls_principal.cs" />
+    <Compile Include="Model\cls_conexion.cs" />
+    <Compile Include="Model\cls_dav_alumno.cs" />
+    <Compile Include="Model\cls_dav_clasificacion.cs" />
+    <Compile Include="Model\cls_dav_devolucion.cs" />
+    <Compile Include="Model\cls_dav_grados.cs" />
+    <Compile Include="Model\cls_dav_grupo.cs" />
+    <Compile Include="Model\cls_dav_invent.cs" />
+    <Compile Include="Model\cls_dav_libro.cs" />
+    <Compile Include="Model\cls_dav_login.cs" />
+    <Compile Include="Model\cls_dav_prestamo.cs" />
+    <Compile Include="Model\cls_var.cs" />
+    <Compile Include="Model\cls_vo_alumnos.cs" />
+    <Compile Include="Model\cls_vo_devolucion.cs" />
+    <Compile Include="Model\cls_vo_libro.cs" />
+    <Compile Include="Model\cls_vo_login.cs" />
+    <Compile Include="Model\cls_vo_prestamo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_acerca_de.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_acerca_de.Designer.cs">
+      <DependentUpon>Frm_acerca_de.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_alumnos.Designer.cs">
+      <DependentUpon>Frm_alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_bus_libro_de.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_bus_libro_de.Designer.cs">
+      <DependentUpon>Frm_bus_libro_de.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_clasificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_clasificacion.Designer.cs">
+      <DependentUpon>Frm_clasificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_devolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_devolucion.Designer.cs">
+      <DependentUpon>Frm_devolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_edit_libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_edit_libro.Designer.cs">
+      <DependentUpon>Frm_edit_libro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_grados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_grados.Designer.cs">
+      <DependentUpon>Frm_grados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_grupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_grupos.Designer.cs">
+      <DependentUpon>Frm_grupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_importar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_importar.Designer.cs">
+      <DependentUpon>Frm_importar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_libros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_libros.Designer.cs">
+      <DependentUpon>Frm_libros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_reg_libros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_reg_libros.Designer.cs">
+      <DependentUpon>Frm_reg_libros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_libros_prestados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_libros_prestados.Designer.cs">
+      <DependentUpon>Frm_libros_prestados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_login.Designer.cs">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_prestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_prestamos.Designer.cs">
+      <DependentUpon>Frm_prestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_principal.Designer.cs">
+      <DependentUpon>Frm_principal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_acerca_de.resx">
+      <DependentUpon>Frm_acerca_de.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_alumnos.resx">
+      <DependentUpon>Frm_alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_bus_libro_de.resx">
+      <DependentUpon>Frm_bus_libro_de.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_clasificacion.resx">
+      <DependentUpon>Frm_clasificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_devolucion.resx">
+      <DependentUpon>Frm_devolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_edit_libro.resx">
+      <DependentUpon>Frm_edit_libro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_grados.resx">
+      <DependentUpon>Frm_grados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_grupos.resx">
+      <DependentUpon>Frm_grupos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_importar.resx">
+      <DependentUpon>Frm_importar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_libros.resx">
+      <DependentUpon>Frm_libros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_reg_libros.resx">
+      <DependentUpon>Frm_reg_libros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_libros_prestados.resx">
+      <DependentUpon>Frm_libros_prestados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_login.resx">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_prestamos.resx">
+      <DependentUpon>Frm_prestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_principal.resx">
+      <DependentUpon>Frm_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encabezado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Libros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prestamos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Devolucion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_reporte_rt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20160113_094138.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20160113_094932.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen_proveedor_255x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReporteArticulos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Busqueda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ayuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backup.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Utilitles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Utilitles1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewDate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Simbolo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accepted_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Datagri.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo sistema bibliotecario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo sistema bibliotecario-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura - copia.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cambiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel.PNG" />
+    <Content Include="Simbolo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

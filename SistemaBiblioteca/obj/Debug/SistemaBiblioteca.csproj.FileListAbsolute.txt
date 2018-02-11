@@ -1,0 +1,50 @@
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.exe.config
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.exe
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.pdb
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.Properties.Resources.resources
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_login.resources
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.exe
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.pdb
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_prestamos.resources
+c:\users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_principal.resources
+C:\Users\usuario\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_libros.resources
+C:\Users\usuario\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_clasificacion.resources
+C:\Users\usuario\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_grados.resources
+C:\Users\usuario\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_grupos.resources
+C:\Users\usuario\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_alumnos.resources
+C:\Users\usuario\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_devolucion.resources
+C:\Users\usuario\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_libros_prestados.resources
+C:\Users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_acerca_de.resources
+C:\Users\usuario\documents\visual studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_bus_libro_de.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.exe.config
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.exe
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.pdb
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.exe
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.pdb
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_acerca_de.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_alumnos.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_bus_libro_de.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_clasificacion.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_devolucion.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_grados.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_grupos.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_libros.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_libros_prestados.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_login.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_prestamos.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_principal.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.GenerateResource.Cache
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_reg_libros.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_edit_libro.resources
+C:\Users\USUARIO\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_edit_libro.resources
+C:\Users\USUARIO\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_reg_libros.resources
+C:\Users\USUARIO\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.View.Frm_importar.resources
+C:\Users\USUARIO\Documents\Visual Studio 2012\Projects\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.ResolveComReference.cache
+E:\Courses\C#\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.exe.config
+E:\Courses\C#\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.ResolveComReference.cache
+E:\Courses\C#\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.exe
+E:\Courses\C#\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.pdb
